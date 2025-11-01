@@ -12,7 +12,7 @@ except Exception:
         raise RuntimeError("Install a Qt binding first: `pip install PyQt5` or `pip install PySide6`")
 
 # phishing_tool acts as a resilient adapter that will pick your real GUI where it lives
-from phishing_tool import PhishingTool
+from gui import PhishingTool
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
