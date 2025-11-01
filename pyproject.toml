@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "metasploit-wrapper"
+version = "0.1.0"
+description = "Thin Python wrapper to start/connect to Metasploit via RPC"
+authors = [ { name = "hackthesystm13" } ]
+dependencies = ["pymetasploit3", "beautifulsoup4", "lxml"]

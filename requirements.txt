@@ -1,0 +1,8 @@
+ PyQt5
+beautifulsoup4
+lxml
+pymetasploit3
+pytest
+proxychains
+npm
+
